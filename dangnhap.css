@@ -42,6 +42,26 @@ h1{
     margin-bottom: 15px;
 }
 
+.back{
+    position: relative;
+    height: 50px;
+    width: 100px;
+    border: 1px solid rgb(6, 11, 11);
+    border-radius: 20px;
+    background-color: #4bb6b7;
+    top: -13.9%;
+    left: -47.1%;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+
+}
+
+.back:hover{
+    background-color: black;
+    color: white;
+}
+
 h1.title {
     font-size: 45px;
     list-style: 45px;
@@ -333,6 +353,7 @@ input {
     height: 40px;
     width: 40px;
     transition: 0.3s ease-in-out;
+    text-decoration: none;
 }
 
 .social-container a:hover{
